@@ -1,5 +1,4 @@
 import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:wallpaperhubapp/model/wallpaper_model.dart';
 import 'package:wallpaperhubapp/views/image_view.dart';

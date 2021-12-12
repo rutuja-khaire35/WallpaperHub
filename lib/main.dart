@@ -1,3 +1,4 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:wallpaperhubapp/views/home.dart';
 
@@ -17,7 +18,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
-      home: Home(),
+      // home: Home(),
+      home: AnimatedSplashScreen(
+        nextScreen: Home(),
+        splash: Image.asset('assets/images/splashImg.jpg'),
+        splashTransition: SplashTransition.scaleTransition,
+      ),
     );
   }
 }
