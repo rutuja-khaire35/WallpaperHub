@@ -3,7 +3,7 @@
 A wallpaperhub is a flutter app made using pixels API which is free. This app tries to fetch data from an API and pass down data in a flutter widget. The image is saved to local storage(Gallery).  
 Get pixels API Key visit http://pexels.com/api and signup then click on request access and you will get your API Key. Now you have to replace the secretKey inside the data.dart file inside lib folder with your API Key such that you assign the value to the variable apiKey and hence you could access the wallpapers through API.
 
-# How to install?  
+## How to install?  
 Before these steps make sure you have "Flutter 2.0"
 
 *git clone https://github.com/rutuja-khaire35/portfolio-app.git  
@@ -12,7 +12,7 @@ flutter packages get
 flutter config --enable-web  
 flutter run -d chrome*  
 
-# Screenshots  
+## Screenshots  
 The the screenshot below is the splash screen which appears when you first opens the app    
 <img src="https://user-images.githubusercontent.com/82515776/153756243-10b1d6b9-4608-415e-b46a-4ccfb37beac1.png"  width=40% height=40%>    
 After the splash screen you land on the main screen of the app and the below is the screenshot for that  
